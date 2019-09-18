@@ -37,8 +37,10 @@
             <input type="hidden" />
           </form>
           {% else %}
-          <a class="nav-item nav-link" href="{% url 'buysignup' %}">Sign Up</a>
-          <a class="nav-item nav-link" href="{% url 'buylogin' %}">Login</a>
+          <a class="nav-item nav-link" href="{% url 'buysignup' %}">Buyers Sign Up</a>
+          <a class="nav-item nav-link" href="{% url 'buylogin' %}">Buyers Login</a>
+          <a class="nav-item nav-link" href="{% url 'signup' %}">Sellers Sign Up</a>
+          <a class="nav-item nav-link" href="{% url 'login' %}">Sellers Login</a>
           {% endif %}
         </div>
       </div>

@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% if error %}
+{{ error }}
+<br />
+<br />
+{% endif %}
+
+<h1>Create</h1>
+
+<form method="POST" action="{% url 'create' %}" enctype="multipart/form-data">
+{% csrf_token %}
+Name:
+<br />
+<input type="text" name="name" />
+<br />
+Details:
+<br />
+<input type="textbox" name="details" />
+<br />
+URL:
+<br />
+<input type="text" name="url" />
+<br />
+
+    <select name="catagorys" required="" id="id_catagorys" multiple="multiple">
+  <option value="1">electric</option>
+
+  <option value="2">food</option>
+
+  <option value="3">wear</option>
+
+</select>
+
+Image:
+<br />
+<input type="file" name="image" />
+<br />
+<br />
+<input class="btn btn-primary" type="submit" value="Add Product" />
+</form>
+
+{% endblock %}

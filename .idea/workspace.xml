@@ -1,17 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0084c98-61d0-43a7-846a-85c64d714d82" name="Default Changelist" comment="" />
+    <list default="true" id="d0084c98-61d0-43a7-846a-85c64d714d82" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/templates/products/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e_web/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/e_web/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e_web/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/e_web/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e_web/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/e_web/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/templates/products/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/products/templates/products/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sellers/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/sellers/views.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1QpTWK0n7MMtmc3Hh2dSAPb0G45" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sellers/templates/sellers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../portfolio" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -23,8 +42,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\turza\Desktop\e_web\sellers\templates\sellers" />
       <recent name="C:\Users\turza\Desktop\e_web\products" />
+      <recent name="C:\Users\turza\Desktop\e_web\sellers\templates\sellers" />
       <recent name="C:\Users\turza\Desktop\e_web\sellers" />
     </key>
   </component>
@@ -47,6 +66,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="e_web.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -76,10 +96,27 @@
       <option name="presentableId" value="Default" />
       <updated>1568466567259</updated>
       <workItem from="1568466569701" duration="7919000" />
+      <workItem from="1568554372160" duration="4588000" />
+      <workItem from="1568638884123" duration="6744000" />
+      <workItem from="1568733481792" duration="1961000" />
+      <workItem from="1568811539746" duration="9383000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

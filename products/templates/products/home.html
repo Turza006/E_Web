@@ -1,1 +1,27 @@
-yeha hooooooooo!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block content %}
+
+<div class="album py-5" style="background-color: transparent">
+        <div class="container">
+
+            <div class="row">
+                {% for products in products.all %}
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow" >
+                        <img class="card-img-top" src="{{ products.image.url }}" style="padding: 5px"/>
+
+                        <div class="card-body">
+                            <p class="card-text">{{  products.name }}</p>
+
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">{{  products.details }}</p>
+
+                        </div>
+                    </div>
+                </div>
+
+        {% endfor %}
+
+{% endblock %}
