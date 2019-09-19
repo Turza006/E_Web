@@ -7,7 +7,9 @@ from django.utils import timezone
 
 
 def home(request):
+
     products = Products.objects
+
     return render(request, 'products/home.html',{'products':products})
 
 class CatagoryView(viewsets.ModelViewSet):
@@ -20,6 +22,7 @@ class ProductsView(viewsets.ModelViewSet):
 
 @login_required
 def create(request):
+    catagorys = Catagory.objects
     if request.method == 'POST':
         if request.POST['name'] and request.POST['details'] and request.POST['url'] and request.POST['catagorys'] and request.FILES['image']:
             product = Products()
@@ -36,6 +39,6 @@ def create(request):
                 product.save()
                 return redirect('home')
         else:
-            return render(request, 'products/create.html',{'error':'All field are required'})
+            return render(request, 'products/create.html',{'error':'All field are required'},{'catagorys':catagorys})
     else:
-        return render(request, 'products/create.html')
+        return render(request, 'products/create.html',{'catagorys':catagorys})

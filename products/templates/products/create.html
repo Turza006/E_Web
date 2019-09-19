@@ -42,4 +42,8 @@ Image:
 <input class="btn btn-primary" type="submit" value="Add Product" />
 </form>
 
+{% for catagorys in catagorys.all %}
+    <p>{{  catagorys.name }}</p>
+{% endfor %}
+
 {% endblock %}
