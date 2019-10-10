@@ -2,22 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0084c98-61d0-43a7-846a-85c64d714d82" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/templates/products/bhome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/templates/products/detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/buyers/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/buyers/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/buyers/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/buyers/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/buyers/templates/buyers/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/buyers/templates/buyers/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/buyers/templates/buyers/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/buyers/templates/buyers/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buyers/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/buyers/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/buyers/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/buyers/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e_web/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/e_web/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/e_web/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/e_web/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/products/templates/products/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/products/templates/products/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/templates/products/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/products/templates/products/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sellers/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/sellers/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sellers/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/sellers/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sellers/templates/sellers/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/sellers/templates/sellers/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sellers/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/sellers/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sellers/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/sellers/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,7 +44,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Zappcode/producthunt-project-master" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -36,9 +53,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\turza\Desktop\e_web\products\templates\products" />
       <recent name="C:\Users\turza\Desktop\e_web\products" />
       <recent name="C:\Users\turza\Desktop\e_web\sellers\templates\sellers" />
       <recent name="C:\Users\turza\Desktop\e_web\sellers" />
@@ -97,7 +116,18 @@
       <workItem from="1568638884123" duration="6744000" />
       <workItem from="1568733481792" duration="1961000" />
       <workItem from="1568811539746" duration="9596000" />
-      <workItem from="1568894870821" duration="9947000" />
+      <workItem from="1568894870821" duration="10871000" />
+      <workItem from="1569166059668" duration="3913000" />
+      <workItem from="1569239298559" duration="7771000" />
+      <workItem from="1569413032180" duration="1798000" />
+      <workItem from="1569510395414" duration="1212000" />
+      <workItem from="1569765913521" duration="1870000" />
+      <workItem from="1569849066889" duration="5100000" />
+      <workItem from="1570031238849" duration="2263000" />
+      <workItem from="1570109776056" duration="4090000" />
+      <workItem from="1570543023117" duration="27000" />
+      <workItem from="1570631151291" duration="3305000" />
+      <workItem from="1570715092634" duration="6607000" />
     </task>
     <servers />
   </component>

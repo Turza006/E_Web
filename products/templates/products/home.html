@@ -2,26 +2,26 @@
 {% load staticfiles %}
 {% block content %}
 
-<div class="album py-5" style="background-color: transparent">
+    <div class="album py-5" style="background-color: transparent">
         <div class="container">
 
             <div class="row">
                 {% for products in products.all %}
-                <div class="col-md-4">
-                    <div class="card mb-4 shadow" >
-                        <img class="card-img-top" src="{{ products.image.url }}" style="padding: 5px"/>
+                    <div class="col-md-4" style="background-color: black">
+                        <div class="card mb-4" style="background-color: black">
+                            <img class="card-img-top" src="{{ products.image.url }}" style="background-color: black"/>
 
-                        <div class="card-body">
-                            <p class="card-text">{{  products.name }}</p>
+                            <div class="card-body" style="background-color: black">
+                                <p class="card-text" style="color: aliceblue">{{  products.name }}</p>
+                                <p class="card-text" style="color: aliceblue">{{  products.detail }}</p>
+                                <p class="card-text" style="color: aliceblue">{{  products.price }}</p>
+                                <p class="card-text" style="color: aliceblue">{{ products.seller }}</p>
+                                <p class="card-text" style="color: aliceblue">{{ products.pub_date  }}</p>
 
-                        </div>
-                        <div class="card-body">
-                            <p class="card-text">{{  products.details }}</p>
-
+                            </div>
                         </div>
                     </div>
-                </div>
 
-        {% endfor %}
+                {% endfor %}
 
 {% endblock %}
